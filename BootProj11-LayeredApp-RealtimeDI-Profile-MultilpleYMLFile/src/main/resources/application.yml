@@ -1,0 +1,4 @@
+#Active the profile
+spring:
+  profiles:
+    active: uat

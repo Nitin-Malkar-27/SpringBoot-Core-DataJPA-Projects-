@@ -1,0 +1,15 @@
+# MYSQL jdbc properties
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://NTSPBMS616DB
+    username: root
+    password: mysql
+    
+  c3p0:
+    maxSize: 100
+    minSize: 10
+    
+    # specified datasource name
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+    

@@ -1,0 +1,8 @@
+#customer infomation
+cust: 
+   info: 
+     custno: 1001
+     custname: raja
+     custaddrs: hyd
+     billAmt: 8900.56
+     

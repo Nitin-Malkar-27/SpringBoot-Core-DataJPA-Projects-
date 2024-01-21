@@ -1,0 +1,16 @@
+# ORACLE jdbc properties
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system
+    password: oracle
+ 
+    oracleucp:
+      max-pool-size: 100
+      min-pool-size: 10
+      time-to-live-connection-timeout: 100000
+      
+    # specified datasource name
+    type: oracle.ucp.jdbc.PoolDataSourceImpl
+    

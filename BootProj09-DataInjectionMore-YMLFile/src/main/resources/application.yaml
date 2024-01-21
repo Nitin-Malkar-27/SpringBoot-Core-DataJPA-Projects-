@@ -1,0 +1,41 @@
+# Employee information
+org:
+  nit:
+    # for simple properties
+    eno: 101
+    ename: Krushna
+    
+    # for array properties
+    favColors:
+      - red
+      - blue
+      - green
+      
+     # for List Collection
+    
+    nickNames: [raja,maja,saja] #Inline Approch
+  
+    # OR
+    nick-names: #Indexed approch
+      - chinna
+      - munna
+      - kanna
+   
+    
+    # for Set collection
+    phoneNumbers:
+      - 999999999
+      - 888888888
+      - 777777777
+    # for Map Collection
+    idDetails:
+      aadhar: 89898989
+      voter: 343434ghgh
+      panNo: 343434opop
+      
+    # for HAS-A properties
+    company:
+      id: 12344
+      name: HCL
+      addrs: pune
+      size: 4000
